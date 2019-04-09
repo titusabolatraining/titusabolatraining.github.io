@@ -22704,7 +22704,8 @@ a.text-light:active, a.text-light:focus, a.text-light:hover {
 
 .sidebar {
   background-color: burlywood;
-  padding-top: 96px; }
+  padding-top: 96px;
+  overflow-y: auto; }
 
 @media (min-width: 768px) {
   .sidebar {
@@ -22721,4 +22722,4 @@ a.text-light:active, a.text-light:focus, a.text-light:hover {
   padding-top: 96px; }
 
 
-/*# sourceMappingURL=styles-9d8954.css.map*/
+/*# sourceMappingURL=styles-3b35ab.css.map*/
