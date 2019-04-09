@@ -8,6 +8,7 @@
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "bootstrap": "^4.3.1",
     "css-loader": "^2.1.1",
+    "daemonite-material": "^4.1.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.15.0",
     "style-loader": "^0.23.1",

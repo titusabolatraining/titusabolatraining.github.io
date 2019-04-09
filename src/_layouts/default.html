@@ -7,20 +7,20 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-  {% include _navbar.html %}
-  <main class="container">
+<body class="bg-dark-2">
+  {% include _header.html %}
+  <main class="container-fluid">
     <div class="row">
-      <div class="col">
-        <p>Sample icon <i class="fas fa-address-book"></i></p>
+      <div class="col-md-3 d-sm-block bg-dark-3 sidebar pb-3">
+        {% include _sidebar.html %}
       </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        {{ content }}
+      <div class="col-md-9 ml-sm-auto bg-dark-2 main">
+        {% include _jumbotron.html %}
+        <div class="content text-white">
+          {{ content }}
+        </div>
       </div>
     </div>
   </main>
-  
 </body>
 </html>

@@ -25,11 +25,27 @@ const config = {
           'style-loader',
           MiniCssExtractPlugin.loader,
           'css-loader',
-          'sass-loader'
+          {
+            loader: 'sass-loader',
+            options: {
+              includePaths: ['node_modules']
+            }
+          }
         ]
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf|svg)$/,
+        test: /\.(png|svg|jpg|gif|ico)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'img/[name].[ext]' // check the path
+            }
+          }
+        ]
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: [
           {
             loader: 'file-loader'

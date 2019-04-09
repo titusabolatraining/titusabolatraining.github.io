@@ -1,0 +1,15 @@
+.sidebar {
+  background-color: burlywood;
+  padding-top: $padding-top;
+}
+
+
+@include media-breakpoint-up(md) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+  }
+}

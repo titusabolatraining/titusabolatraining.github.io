@@ -6,22 +6,21 @@
   <title>{{ page.title }} - {{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link href="/assets/css/styles-965c33.css" rel="stylesheet"></head>
-<body>
-  {% include _navbar.html %}
-  <main class="container">
+<link href="/assets/css/styles-9d8954.css" rel="stylesheet"></head>
+<body class="bg-dark-2">
+  {% include _header.html %}
+  <main class="container-fluid">
     <div class="row">
-      <div class="col">
-        <p>Sample icon <i class="fas fa-address-book"></i></p>
+      <div class="col-md-3 d-sm-block bg-dark-3 sidebar pb-3">
+        {% include _sidebar.html %}
       </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        {{ content }}
+      <div class="col-md-9 ml-sm-auto bg-dark-2 main">
+        {% include _jumbotron.html %}
+        <div class="content text-white">
+          {{ content }}
+        </div>
       </div>
     </div>
   </main>
-  
-<script type="text/javascript" src="/assets/js/vendor-965c33.js"></script><script type="text/javascript" src="/assets/js/bundle-e9de1d.js"></script></body>
+<script type="text/javascript" src="/assets/js/vendor-9d8954.js"></script><script type="text/javascript" src="/assets/js/bundle-e9de1d.js"></script></body>
 </html>
