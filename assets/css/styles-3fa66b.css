@@ -22705,6 +22705,9 @@ a.text-light:active, a.text-light:focus, a.text-light:hover {
 .carousel-control-prev-icon::before {
   content: ""; }
 
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
 .header {
   z-index: 1030; }
 
@@ -22737,4 +22740,4 @@ a.text-light:active, a.text-light:focus, a.text-light:hover {
   padding-top: 96px; }
 
 
-/*# sourceMappingURL=styles-528a57.css.map*/
+/*# sourceMappingURL=styles-3fa66b.css.map*/
