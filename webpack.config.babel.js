@@ -27,6 +27,14 @@ const config = {
           'css-loader',
           'sass-loader'
         ]
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf|svg)$/,
+        use: [
+          {
+            loader: 'file-loader'
+          }
+        ]
       }
     ]
   },
@@ -45,7 +53,7 @@ const config = {
       jQuery: 'jquery',
       'window.jQuery': 'jquery',
       Popper: 'popper.js'
-    }),
+    })
     // new HotModuleReplacementPlugin()
   ],
   optimization: {

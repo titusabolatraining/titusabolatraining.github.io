@@ -6,7 +6,7 @@ Titus Abola Soft Skills Trainer
 
 - Install webpack
 
-```
+```bash
 npm i -D webpack \
          @babel/core \
          @babel/register \
@@ -15,12 +15,20 @@ npm i -D webpack \
 
 Create `.babelrc`
 
+```json
+{
+  "presets": ["@babel/preset-env"]
+}
+```
 
 - Install Bootstrap
 
-```
+```bash
 npm i jquery popper.js bootstrap
+npm i -D @fortawesome/fontawesome-free
 ```
 
 ## References
 
+- [webpack](https://webpack.js.org/concepts)
+- [jekyll](https://jekyllrb.com/)
