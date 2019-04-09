@@ -1,5 +1,20 @@
 .profile {
-  .card-img-top.border {
-    border-width: 4px !important;
+  .card-img-top {
+    max-width: 200px;
+    margin: 0 auto;
+
+    &.border {
+      border-width: 4px !important;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .card-img-top {
+      max-width: 350px;
+    }
+
+    .card-text {
+      text-align: center;
+    }
   }
 }

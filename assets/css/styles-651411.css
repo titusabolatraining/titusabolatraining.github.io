@@ -22715,11 +22715,20 @@ a.text-light:active, a.text-light:focus, a.text-light:hover {
     left: 0;
     z-index: 100; } }
 
-.profile .card-img-top.border {
-  border-width: 4px !important; }
+.profile .card-img-top {
+  max-width: 200px;
+  margin: 0 auto; }
+  .profile .card-img-top.border {
+    border-width: 4px !important; }
+
+@media (max-width: 767.98px) {
+  .profile .card-img-top {
+    max-width: 350px; }
+  .profile .card-text {
+    text-align: center; } }
 
 .main {
   padding-top: 96px; }
 
 
-/*# sourceMappingURL=styles-3b35ab.css.map*/
+/*# sourceMappingURL=styles-651411.css.map*/
