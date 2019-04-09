@@ -22699,6 +22699,12 @@ a.text-light:active, a.text-light:focus, a.text-light:hover {
   .table .thead-dark td,
   .table .thead-dark th {
     color: inherit; } }
+.carousel-control-next-icon::before {
+  content: ""; }
+
+.carousel-control-prev-icon::before {
+  content: ""; }
+
 .header {
   z-index: 1030; }
 
@@ -22731,4 +22737,4 @@ a.text-light:active, a.text-light:focus, a.text-light:hover {
   padding-top: 96px; }
 
 
-/*# sourceMappingURL=styles-651411.css.map*/
+/*# sourceMappingURL=styles-528a57.css.map*/

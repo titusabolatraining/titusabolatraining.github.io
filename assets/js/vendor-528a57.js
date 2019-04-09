@@ -21569,6 +21569,12 @@ module.exports = g;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
+	"./titus-abola-facilitating-a-group-cropped-960x600.jpg": "./img/titus-abola-facilitating-a-group-cropped-960x600.jpg",
+	"./titus-abola-facilitating-a-group.jpg": "./img/titus-abola-facilitating-a-group.jpg",
+	"./titus-abola-funny-pose-with-participants-cropped-960x600.jpg": "./img/titus-abola-funny-pose-with-participants-cropped-960x600.jpg",
+	"./titus-abola-funny-pose-with-participants.jpg": "./img/titus-abola-funny-pose-with-participants.jpg",
+	"./titus-abola-leading-team-building-game-cropped-960x600.jpg": "./img/titus-abola-leading-team-building-game-cropped-960x600.jpg",
+	"./titus-abola-leading-team-building-game.jpg": "./img/titus-abola-leading-team-building-game.jpg",
 	"./titus-abola-speaking.jpg": "./img/titus-abola-speaking.jpg"
 };
 
@@ -21591,6 +21597,72 @@ webpackContext.keys = function webpackContextKeys() {
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
 webpackContext.id = "./img sync recursive \\.(png|svg|jpg|gif|ico)$";
+
+/***/ }),
+
+/***/ "./img/titus-abola-facilitating-a-group-cropped-960x600.jpg":
+/*!******************************************************************!*\
+  !*** ./img/titus-abola-facilitating-a-group-cropped-960x600.jpg ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/titus-abola-facilitating-a-group-cropped-960x600.jpg";
+
+/***/ }),
+
+/***/ "./img/titus-abola-facilitating-a-group.jpg":
+/*!**************************************************!*\
+  !*** ./img/titus-abola-facilitating-a-group.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/titus-abola-facilitating-a-group.jpg";
+
+/***/ }),
+
+/***/ "./img/titus-abola-funny-pose-with-participants-cropped-960x600.jpg":
+/*!**************************************************************************!*\
+  !*** ./img/titus-abola-funny-pose-with-participants-cropped-960x600.jpg ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/titus-abola-funny-pose-with-participants-cropped-960x600.jpg";
+
+/***/ }),
+
+/***/ "./img/titus-abola-funny-pose-with-participants.jpg":
+/*!**********************************************************!*\
+  !*** ./img/titus-abola-funny-pose-with-participants.jpg ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/titus-abola-funny-pose-with-participants.jpg";
+
+/***/ }),
+
+/***/ "./img/titus-abola-leading-team-building-game-cropped-960x600.jpg":
+/*!************************************************************************!*\
+  !*** ./img/titus-abola-leading-team-building-game-cropped-960x600.jpg ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/titus-abola-leading-team-building-game-cropped-960x600.jpg";
+
+/***/ }),
+
+/***/ "./img/titus-abola-leading-team-building-game.jpg":
+/*!********************************************************!*\
+  !*** ./img/titus-abola-leading-team-building-game.jpg ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/titus-abola-leading-team-building-game.jpg";
 
 /***/ }),
 
@@ -21667,4 +21739,4 @@ if(false) {}
 /***/ })
 
 }]);
-//# sourceMappingURL=vendor-651411.js.map
+//# sourceMappingURL=vendor-528a57.js.map
