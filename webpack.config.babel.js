@@ -14,7 +14,8 @@ const config = {
   output: {
     path: _resolve(__dirname, 'assets'),
     publicPath: '/assets/',
-    filename: 'js/bundle-[hash:6].js'
+    filename: 'js/bundle-[contenthash].js',
+    hashDigestLength: 6
   },
   module: {
     rules: [
@@ -36,8 +37,8 @@ const config = {
       template: '_layouts/default.html'
     }),
     new MiniCssExtractPlugin({
-      filename: 'css/styles-[hash:6].css',
-      chunkFilename: 'css/styles-[hash:6].css'
+      filename: 'css/styles-[contenthash].css',
+      chunkFilename: 'css/styles-[chunkhash].css'
     }),
     new ProvidePlugin({
       $: 'jquery',
@@ -45,14 +46,14 @@ const config = {
       'window.jQuery': 'jquery',
       Popper: 'popper.js'
     }),
-    new HotModuleReplacementPlugin()
+    // new HotModuleReplacementPlugin()
   ],
   optimization: {
     splitChunks: {
       chunks: 'all',
       cacheGroups: {
         vendors: {
-          filename: 'js/vendor-[hash:6].js'
+          filename: 'js/vendor-[chunkhash].js'
         }
       }
     }
