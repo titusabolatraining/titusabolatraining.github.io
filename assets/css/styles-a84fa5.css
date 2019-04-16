@@ -22736,8 +22736,9 @@ a.text-light:active, a.text-light:focus, a.text-light:hover {
   .profile .card-text {
     text-align: center; } }
 
-.main {
-  padding-top: 96px; }
+@media (min-width: 768px) {
+  .main {
+    padding-top: 96px; } }
 
 
-/*# sourceMappingURL=styles-182bac.css.map*/
+/*# sourceMappingURL=styles-a84fa5.css.map*/
