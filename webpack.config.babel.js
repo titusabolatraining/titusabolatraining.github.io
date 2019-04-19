@@ -5,7 +5,6 @@ import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import CleanWebpackPlugin from 'clean-webpack-plugin';
 
 const config = {
-  mode: 'development',
   devtool: 'source-map',
   context: _resolve(__dirname, 'src'),
   entry: {
