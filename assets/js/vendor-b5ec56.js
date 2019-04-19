@@ -21569,6 +21569,7 @@ module.exports = g;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
+	"./titus-abola-faciliates-4A-88-highschool-reunion-icove-beach.jpg": "./img/titus-abola-faciliates-4A-88-highschool-reunion-icove-beach.jpg",
 	"./titus-abola-facilitating-a-group-cropped-960x600.jpg": "./img/titus-abola-facilitating-a-group-cropped-960x600.jpg",
 	"./titus-abola-facilitating-a-group.jpg": "./img/titus-abola-facilitating-a-group.jpg",
 	"./titus-abola-funny-pose-with-participants-cropped-960x600.jpg": "./img/titus-abola-funny-pose-with-participants-cropped-960x600.jpg",
@@ -21597,6 +21598,17 @@ webpackContext.keys = function webpackContextKeys() {
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
 webpackContext.id = "./img sync recursive \\.(png|svg|jpg|gif|ico)$";
+
+/***/ }),
+
+/***/ "./img/titus-abola-faciliates-4A-88-highschool-reunion-icove-beach.jpg":
+/*!*****************************************************************************!*\
+  !*** ./img/titus-abola-faciliates-4A-88-highschool-reunion-icove-beach.jpg ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/titus-abola-faciliates-4A-88-highschool-reunion-icove-beach.jpg";
 
 /***/ }),
 
@@ -21686,7 +21698,7 @@ module.exports = __webpack_require__.p + "img/titus-abola-speaking.jpg";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ "./scss/main.scss");
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ "./scss/main.scss");
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ "../node_modules/bootstrap/dist/js/bootstrap.js");
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_1__);
@@ -21698,13 +21710,7 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__("./img sync recursive \\.(png|svg|jpg|gif|ico)$");
 
-$(() => {
-  console.log('ready: ' + new Date());
-});
 
-console.log('Hello world: ' + new Date());
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ "../node_modules/jquery/dist/jquery.js")))
 
 /***/ }),
 
@@ -21739,4 +21745,4 @@ if(false) {}
 /***/ })
 
 }]);
-//# sourceMappingURL=vendor-a84fa5.js.map
+//# sourceMappingURL=vendor-b5ec56.js.map
